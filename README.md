@@ -65,4 +65,4 @@ Bu projeyi **Claude Code** (Anthropic) ile birlikte geliştirdim.
 
 ## Canlı demo
 
-Canlı bağlantı yayına alındıktan sonra buraya eklenecek.
+**https://harcama-takip-bice.vercel.app** (Vercel)
