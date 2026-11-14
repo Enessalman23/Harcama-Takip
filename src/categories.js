@@ -1,12 +1,12 @@
 // Kategori adı -> rozet ve çubuk renkleri (Tailwind sınıfları tam yazıldığı için derlemeye dahil olur)
 export const CATEGORIES = {
-  Market: { badge: 'bg-emerald-100 text-emerald-700', bar: 'bg-emerald-500' },
-  Fatura: { badge: 'bg-amber-100 text-amber-700', bar: 'bg-amber-500' },
-  Ulaşım: { badge: 'bg-sky-100 text-sky-700', bar: 'bg-sky-500' },
-  Eğlence: { badge: 'bg-pink-100 text-pink-700', bar: 'bg-pink-500' },
-  Sağlık: { badge: 'bg-rose-100 text-rose-700', bar: 'bg-rose-500' },
-  Eğitim: { badge: 'bg-indigo-100 text-indigo-700', bar: 'bg-indigo-500' },
-  Diğer: { badge: 'bg-slate-200 text-slate-700', bar: 'bg-slate-500' },
+  Market: { badge: 'bg-emerald-500/15 text-emerald-300', bar: 'bg-emerald-400' },
+  Fatura: { badge: 'bg-red-500/15 text-red-300', bar: 'bg-red-400' },
+  Ulaşım: { badge: 'bg-sky-500/15 text-sky-300', bar: 'bg-sky-400' },
+  Eğlence: { badge: 'bg-pink-500/15 text-pink-300', bar: 'bg-pink-400' },
+  Sağlık: { badge: 'bg-teal-500/15 text-teal-300', bar: 'bg-teal-400' },
+  Eğitim: { badge: 'bg-lime-500/15 text-lime-300', bar: 'bg-lime-400' },
+  Diğer: { badge: 'bg-zinc-500/20 text-zinc-300', bar: 'bg-zinc-400' },
 }
 
 export const CATEGORY_NAMES = Object.keys(CATEGORIES)

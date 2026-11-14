@@ -4,6 +4,8 @@ Günlük harcamalarını kaydedip kategorilere göre takip etmeni sağlayan, Rea
 
 ![Harcama Takipçisi ekran görüntüsü](docs/ekran-goruntusu.jpg)
 
+![Harcama listesi ve ekleme formu](docs/ekran-tablo.jpg)
+
 ## Özellikler
 
 - Açıklama, tutar, kategori ve tarih ile harcama ekleme (virgüllü tutar desteklenir: `1250,50`)
@@ -12,7 +14,7 @@ Günlük harcamalarını kaydedip kategorilere göre takip etmeni sağlayan, Rea
 - Kategorilere göre renkli dağılım çubukları ve tabloda renkli kategori rozetleri
 - Kategoriye göre filtreleme ve en yeni tarihe göre sıralı tablo
 - Harcama silme
-- Mobilde de okunabilir, duyarlı tasarım
+- Koyu tema (zinc zemin, amber vurgu); mobilde de okunabilir, duyarlı tasarım
 
 ## Kullanılan teknolojiler
 

@@ -15,7 +15,7 @@ export default function App() {
     <main className="mx-auto max-w-4xl space-y-6 px-4 py-8">
       <header>
         <h1 className="text-3xl font-bold">Harcama Takipçisi</h1>
-        <p className="text-slate-500">Harcamalarını ekle, kategoriye göre takip et. Veriler tarayıcında saklanır.</p>
+        <p className="text-zinc-400">Harcamalarını ekle, kategoriye göre takip et. Veriler tarayıcında saklanır.</p>
       </header>
       <SummaryCards expenses={expenses} />
       <ExpenseForm onAdd={addExpense} />

@@ -23,10 +23,10 @@ export default function ExpenseForm({ onAdd }) {
   }
 
   const input =
-    'w-full rounded-lg border border-slate-300 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-400'
+    'w-full rounded-lg border border-zinc-700 bg-zinc-800 px-3 py-2 text-zinc-100 placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-amber-400'
 
   return (
-    <form onSubmit={handleSubmit} className="rounded-2xl bg-white p-5 shadow">
+    <form onSubmit={handleSubmit} className="rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
       <h2 className="mb-4 font-semibold">Yeni harcama ekle</h2>
       <div className="grid gap-3 sm:grid-cols-2">
         <label className="text-sm">
@@ -50,8 +50,8 @@ export default function ExpenseForm({ onAdd }) {
           <input type="date" className={input} value={date} onChange={(e) => setDate(e.target.value)} />
         </label>
       </div>
-      {error && <p className="mt-3 text-sm text-red-600">{error}</p>}
-      <button className="mt-4 rounded-lg bg-indigo-600 px-5 py-2 font-medium text-white hover:bg-indigo-700">
+      {error && <p className="mt-3 text-sm text-red-400">{error}</p>}
+      <button className="mt-4 rounded-lg bg-amber-400 px-5 py-2 font-semibold text-zinc-950 hover:bg-amber-300">
         Ekle
       </button>
     </form>
